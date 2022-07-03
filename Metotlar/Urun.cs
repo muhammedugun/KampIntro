@@ -8,26 +8,9 @@ namespace Metotlar
 {
     class Urun
     {
-        public int Id { get; set; }
-        protected int bbc;
-       
+        List<string> ben = new List<string>();
         
-    }
-
-    class Urun2:Urun
-    {
-       internal void eneme()
-        {
-            bbc = 5;
-        }
-    }
-    class Ana
-    {
-        static void Main()
-        {
-            Urun2 u = new Urun2();
-            u.eneme();
-        }
+        
     }
 
 }

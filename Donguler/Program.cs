@@ -6,7 +6,8 @@ namespace Donguler
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            string[] ad = { "ben", "sen" };
+            Console.WriteLine(ad[0]);
         }
     }
 }

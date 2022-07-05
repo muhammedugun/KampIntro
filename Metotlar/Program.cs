@@ -7,11 +7,11 @@ namespace Metotlar
     {
         static void Main(string[] args)
         {
-            sinif2 sinif = new sinif2();
+            Sinif2 sinif = new Sinif2();
         }
     }
 
-    class sinif1
+    class Sinif1
     {
         public int a { get; set; }
         public int b { get; set; }
@@ -35,15 +35,15 @@ namespace Metotlar
 
     }
 
-    class sinif2
+    class Sinif2
     { 
         public void deneme()
         {
-            sinif1 sinifc = new sinif1();
+            Sinif1 sinifc = new Sinif1();
         }
         public int c { get; set; }
     }
-    class sinif3 
+    class Sinif3 
     {
 
         public int d { get; set; }

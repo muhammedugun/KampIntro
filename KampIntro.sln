@@ -13,6 +13,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Metotlar", "Metotlar\Metotl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReCap1", "ReCap1\ReCap1.csproj", "{E40CB871-E421-4FA5-AD67-0D799A891AC9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DukkanMusteriYonetimi", "DukkanMusteriYonetimi\DukkanMusteriYonetimi.csproj", "{43073055-6894-400A-A0B8-F31E0DCA2EE3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{E40CB871-E421-4FA5-AD67-0D799A891AC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E40CB871-E421-4FA5-AD67-0D799A891AC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E40CB871-E421-4FA5-AD67-0D799A891AC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43073055-6894-400A-A0B8-F31E0DCA2EE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43073055-6894-400A-A0B8-F31E0DCA2EE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43073055-6894-400A-A0B8-F31E0DCA2EE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43073055-6894-400A-A0B8-F31E0DCA2EE3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

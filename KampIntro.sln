@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.2.32616.157
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.2017
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KampIntro", "KampIntro\KampIntro.csproj", "{4913CF73-EE21-4C8F-B817-57F735F128D7}"
 EndProject
@@ -13,7 +13,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Metotlar", "Metotlar\Metotl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReCap1", "ReCap1\ReCap1.csproj", "{E40CB871-E421-4FA5-AD67-0D799A891AC9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DukkanMusteriYonetimi", "DukkanMusteriYonetimi\DukkanMusteriYonetimi.csproj", "{43073055-6894-400A-A0B8-F31E0DCA2EE3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyInterfaceAbstractDemo", "DukkanMusteriYonetimi\MyInterfaceAbstractDemo.csproj", "{43073055-6894-400A-A0B8-F31E0DCA2EE3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfaceAbstractDemo", "InterfaceAbstractDemo\InterfaceAbstractDemo.csproj", "{77E92D90-E6C9-4942-94FA-9A3AB10FFC1F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gun5Odevi", "Gun5Odevi\Gun5Odevi.csproj", "{F9487374-5B85-40B0-AFF9-9E9DD49BADF4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +49,14 @@ Global
 		{43073055-6894-400A-A0B8-F31E0DCA2EE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{43073055-6894-400A-A0B8-F31E0DCA2EE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{43073055-6894-400A-A0B8-F31E0DCA2EE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77E92D90-E6C9-4942-94FA-9A3AB10FFC1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77E92D90-E6C9-4942-94FA-9A3AB10FFC1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77E92D90-E6C9-4942-94FA-9A3AB10FFC1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77E92D90-E6C9-4942-94FA-9A3AB10FFC1F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9487374-5B85-40B0-AFF9-9E9DD49BADF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9487374-5B85-40B0-AFF9-9E9DD49BADF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9487374-5B85-40B0-AFF9-9E9DD49BADF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9487374-5B85-40B0-AFF9-9E9DD49BADF4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

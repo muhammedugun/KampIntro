@@ -43,8 +43,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="IBuyManagers.cs" />
-    <Compile Include="IRegisterManagers.cs" />
+    <Compile Include="Abstract\IBuyManagers.cs" />
+    <Compile Include="Abstract\IRegisterManagers.cs" />
     <Compile Include="Companies.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

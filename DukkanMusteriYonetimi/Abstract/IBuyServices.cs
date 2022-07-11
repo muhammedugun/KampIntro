@@ -4,15 +4,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DukkanMusteriYonetimi
+namespace InterfaceAbstractDemoMy.Abstract
 {
-    interface IBuyManager
+    public interface IBuyManager
     {
         void Buy();
 
+
     }
 
-    interface IAwardManager
+    public interface IAwardManager
     {
         void EarnStar();
     }

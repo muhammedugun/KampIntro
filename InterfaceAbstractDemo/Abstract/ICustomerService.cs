@@ -9,6 +9,8 @@ namespace InterfaceAbstractDemo.Abstract
 {
     public interface ICustomerService
     {
-        void Save(Customer customer);
+       
+        void Save(Customer customer); //Customer yerine tüm ilgili varlıkları referans olarak alabilecek daha 
+        //genel bir yapı da kullanılabilir
     }
 }

@@ -3,34 +3,30 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-
+using InterfaceAbstractDemoMy.Concrete;
+using InterfaceAbstractDemoMy.Entities;
 /*
-    Kahve dükkanları için müşteri yönetimi yapan sistemin simulasyonu
+    Kahve dükkanları için müşteri yönetimi yapan sistemin simulasyonu.
     Starbucks ve Nero firmaları olacak.
     iki firmada müşterilerini aynı veritabanına kaydetmek istiyor.
     starbucks müşterilerini kaydederken mernis doğrulaması istiyor ama Nero firması istemiyor.
-    Starbucks müşterileri için her kahve alımında yıldız kazandırmak istiyor
-    
+    Starbucks müşterileri için her kahve alımında yıldız kazandırmak istiyor.
 */
-namespace DukkanMusteriYonetimi
+
+namespace InterfaceAbstractDemoMy
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            //StarBucks starBucks = new StarBucks();
-            //Nero nero = new Nero();
+            Customer customer = new Customer() { FirstName ="Muhammed",LastName="Uğun" };
+            NeroCustomerManager neroCustomerManager = new NeroCustomerManager();
+            neroCustomerManager.RegisterCustomer(customer.FirstName, customer.LastName);
 
-            //starBucks.RegisterCustomer();
-            //starBucks.Buy();
+            TestCustomerManager testCustomerManager = new TestCustomerManager();
 
-            //nero.RegisterCustomer();
-            //nero.Buy();
-
-          
-
-            Sinif c1 = new Sinif();
-            c1.Metot();
+            testCustomerManager.RegisterCustomer(customer.FirstName, customer.LastName);
+            
 
             Console.ReadLine();
         }

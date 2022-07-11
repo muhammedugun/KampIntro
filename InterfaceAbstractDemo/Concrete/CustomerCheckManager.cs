@@ -9,8 +9,10 @@ namespace InterfaceAbstractDemo.Concrete
 {
     public class CustomerCheckManager : ICustomerCheckService
     {
+        // Verilen bilgilerin gerçek kişiye ait olup olmadığını doğrulayan metot
         public bool CheckIfRealPerson(Customer customer)
         {
+            // Simulasyon amaçlı fake metot oluşturduk
             return true;
         }
     }

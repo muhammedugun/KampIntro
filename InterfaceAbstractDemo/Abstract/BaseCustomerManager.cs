@@ -7,7 +7,8 @@ using InterfaceAbstractDemo.Entities;
 
 namespace InterfaceAbstractDemo.Abstract
 {
-    public abstract class BaseCustomerManager : ICustomerService
+    // Müşteri ile ilgili operasyonları tutan ana soyut sınıfımız
+    public abstract class BaseCustomerManager : ICustomerService 
     {
         public virtual void Save(Customer customer)
         {

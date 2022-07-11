@@ -7,8 +7,10 @@ using System.Threading.Tasks;
 
 namespace InterfaceAbstractDemo.Abstract
 {
-    public interface ICustomerCheckService
+    // Müşteri doğrulama ile ilgil operasyonlar
+    public interface ICustomerCheckService 
     {
+        // Verilen bilgilerin gerçek kişiye ait olup olmadığını doğrulayan metot
         bool CheckIfRealPerson(Customer customer);
     }
 }

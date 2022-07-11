@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{43073055-6894-400A-A0B8-F31E0DCA2EE3}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>DukkanMusteriYonetimi</RootNamespace>
-    <AssemblyName>DukkanMusteriYonetimi</AssemblyName>
+    <RootNamespace>InterfaceAbstractDemoMy</RootNamespace>
+    <AssemblyName>InterfaceAbstractDemoMy</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,14 +43,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Abstract\IBuyManagers.cs" />
-    <Compile Include="Abstract\IRegisterManagers.cs" />
-    <Compile Include="Companies.cs" />
+    <Compile Include="Abstract\BaseCustomerManager.cs" />
+    <Compile Include="Abstract\IBuyServices.cs" />
+    <Compile Include="Abstract\IRegisterServices.cs" />
+    <Compile Include="Concrete\NeroCustomerManager.cs" />
+    <Compile Include="Concrete\StarbucksCustomerManager.cs" />
+    <Compile Include="Concrete\TestCustomerManager.cs" />
+    <Compile Include="Entities\Customer.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace InterfaceAbstractDemo.Entities
 {
-    public class Customer:IEntity
+    public class Customer:IEntity // IEntity interfacesine şimdilik bir şey yazmamış olsakta ileriye dönüklük açısından bu gereklidir. 
     {
         public int Id { get; set; }
         public string FirstName { get; set; }

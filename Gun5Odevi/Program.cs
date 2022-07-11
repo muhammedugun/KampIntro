@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 /*
- Oyuncuları sisteme kaydeten,silen, güncelleyen program.
+ Oyuncuları sisteme kaydeden,silen, güncelleyen program.
  kaydederken kaydın gerçek kişi olup olmadığını kontrol edecek.
      */
 

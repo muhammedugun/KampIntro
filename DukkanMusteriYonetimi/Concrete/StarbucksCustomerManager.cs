@@ -1,12 +1,13 @@
-﻿using System;
+﻿using InterfaceAbstractDemoMy.Abstract;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DukkanMusteriYonetimi
+namespace InterfaceAbstractDemoMy.Concrete
 {
-    class StarBucks : IBuyManager, IAwardManager, IRegisterVerificationManager, ICompaniesRegisterManager
+    public class StarbucksManager : BaseCustomerManager, IAwardManager, IRegisterVerificationManager
     {
         public void Buy()
         {
@@ -16,12 +17,11 @@ namespace DukkanMusteriYonetimi
 
         public void EarnStar()
         {
-            Console.WriteLine("Starbucks müşterisi yıldız kazandı.");
+            throw new NotImplementedException();
         }
 
         public bool MernisVerification()
         {
-            Console.WriteLine("Mernis doğrulaması gerçekleştiriliyor...");
             return true;
         }
 
@@ -32,23 +32,6 @@ namespace DukkanMusteriYonetimi
                 Console.WriteLine("Müşteri kaydı başarılı.");
             else
                 Console.WriteLine("Müşteri kaydı başarısız.");
-
-        }
-    }
-
-    class Nero : IBuyManager, ICompaniesRegisterManager
-    {
-        public void Buy()
-        {
-            Console.WriteLine("Nero müşterisi satın alma gerçekleştirildi.");
-            
-        }
-
-        public void RegisterCustomer()
-        {
-            Console.WriteLine("Nero müşterisi için kayıt işlemi başlatıldı.");
-            Console.WriteLine("Müşteri kaydı başarılı.");
-
 
         }
     }

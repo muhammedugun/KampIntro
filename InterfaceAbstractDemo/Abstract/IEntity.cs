@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace InterfaceAbstractDemo.Abstract
 {
-    public interface IEntity
+    public interface IEntity // Varlıkların ortak özelliklerini tutacak olan interface'imiz
     {
     }
 }

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Gun5Odevi
+namespace Odev
 {
     //Oyuncu varlığının özelliklerinin bulunduğu sınıf
     class Gamer

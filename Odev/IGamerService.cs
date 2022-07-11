@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Gun5Odevi
+namespace Odev
 {
     // GamerManager sınıfının soyutu
     interface IGamerService

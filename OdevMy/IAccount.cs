@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 
-namespace ReCap1
+namespace OdevMy
 {
 
     internal interface IAccount

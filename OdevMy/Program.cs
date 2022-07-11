@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ReCap1
+namespace OdevMy
 {
     /*
         Web site kayıt ve hesap sistemi

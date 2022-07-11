@@ -9,7 +9,7 @@ using System.Threading.Tasks;
  kaydederken kaydın gerçek kişi olup olmadığını kontrol edecek.
      */
 
-namespace Gun5Odevi
+namespace Odev
 {
     class Program
     {
